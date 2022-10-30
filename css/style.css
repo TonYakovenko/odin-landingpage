@@ -8,48 +8,59 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-/*------ABOUT SECTION------*/
+/*------NAVBAR SECTION------*/
 
 h1{
     font-size: 48px;
-    font-weight:bolder;
+    font-weight:bold;
     color: #F9FAF8;
     line-height: 1;
 }
 
-.header{
-    background-color: #1F2937;
-    height: 50px;
-}
-
-.header-content{
-    max-width: 900px;
-    margin: 10px auto;
-}
-
-.header a{
-    color: white;
-    margin: 0 5px;
-    text-decoration: none;
-}
-
-.header p{
+.logo{
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
     display: inline;
 }
 
-.logo{
-    display: inline;
-    float: left;
-    margin: 10px 0;
+.navbar{
+    background-color: #1F2937;
+    height: 60px;
 }
 
-.links{
-    margin: 10px;
-    display: inline;
-    float: right;
+.navbar .container{
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar a{
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color:#76abff;
+}
+/* --------------SECTION--------------- */
+
+.container{
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 p{
@@ -62,14 +73,7 @@ p{
     display: flex;
     justify-content: center;
     background-color: #1F2937;
-    padding: 10px;
-}
-
-.about-content{
-    display: flex;
-    height: auto;
-    max-width: 900px;
-    margin: 50px 0;
+    padding-bottom: 30px;
 }
 
 .signup-btn{
