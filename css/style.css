@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{  
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    line-height: 1;
+}
+
+.header{
+    background-color: #1F2937;
+    height: 50px;
+}
+
+.header-content{
+    max-width: 900px;
+    margin: 10px auto;
+}
+
+.header a{
+    color: white;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.header p{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+}
+
+.logo{
+    display: inline;
+    float: left;
+    margin: 10px 0;
+}
+
+.links{
+    margin: 10px;
+    display: inline;
+    float: right;
+}
+
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 0;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 10px;
+}
+
+.about-content{
+    display: flex;
+    height: auto;
+    max-width: 900px;
+    margin: 50px 0;
+}
+
+.signup-btn{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10%;
+    width: 90px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.about-txt, .about-img-holder{
+    padding: 0 10px;
+}
+
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 450px;
+    background-color: grey;
+    color: white;
+}
