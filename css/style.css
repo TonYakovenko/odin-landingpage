@@ -82,10 +82,10 @@ ul{
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    border-radius: 10%;
-    width: 90px;
+    border-radius: 5px;
+    width: 110px;
     height: 30px;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .about-txt, .about-img-holder{
@@ -136,6 +136,7 @@ h2{
 .info-item p{
     color: #1F2937;
     text-align: center;
+    margin-top: 10px;
 }
 
 .info-img{
@@ -143,7 +144,7 @@ h2{
     width: 150px;
     background-color: white;
     border: 3px solid #3882F6;
-    border-radius: 10%;
+    border-radius: 15px;
     
 }
 
@@ -153,7 +154,8 @@ h2{
     background-color: #E5E7EB;
 }
 
-.testimonials .container{
+.testimonials .container,
+.signup .container{
     margin: auto;
     padding: 30px;
     height: 400px;
@@ -175,4 +177,42 @@ h2{
     font-weight:900;
     font-style:normal;
     text-align: right;
+}
+
+/* ---------------SING UP SECTION------------------ */
+
+.signup .container{
+    height: 250px;
+}
+
+.banner{
+    height: 120px;
+    width: 900px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    color: #fff;
+}
+
+.banner .signup-btn{
+    border: 2px solid #fff;
+}
+
+h3{
+    font-size: 24px;
+}
+
+
+/* --------------------FOOTER----------------------- */
+
+.footer {
+    background-color: #1F2937;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;;
 }
