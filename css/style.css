@@ -8,6 +8,8 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+/*------ABOUT SECTION------*/
+
 h1{
     font-size: 48px;
     font-weight:bolder;
@@ -95,4 +97,56 @@ p{
     width: 450px;
     background-color: grey;
     color: white;
+}
+
+
+/*------------INFO SECTION----------------*/
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info {
+    margin: auto;
+    padding: 30px;
+    height: auto;
+}
+
+.gallery-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.info-item{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.info-item p{
+    color: #1F2937;
+    text-align: center;
+    font-size: 14px;
+}
+
+.info-img{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: 3px solid #3882F6;
+    border-radius: 10%;
+    
+}
+
+/*------------TESTIMONIALS----------------*/
+
+.testimonials{
+    height: 300px;
+    background-color: #E5E7EB;
 }
