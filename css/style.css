@@ -85,13 +85,15 @@ ul{
     border-radius: 5px;
     width: 110px;
     height: 30px;
-    margin: 20px;
 }
 
 .about-txt, .about-img-holder{
     padding: 0 10px;
 }
 
+.about-txt .signup-btn{
+    margin-top: 10px;
+}
 
 .image{
     display: flex;
@@ -99,8 +101,13 @@ ul{
     align-items: center;
     height: 300px;
     width: 450px;
-    background-color: grey;
+    background-color: grey; 
     color: white;
+
+}
+
+.image img{
+    max-width: 450px;
 }
 
 
